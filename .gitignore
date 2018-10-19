@@ -1,22 +1,10 @@
-*.log
-*.temp
-/venv
-/Untitled Folder
-*.csv
-*.txt
-*.xlsx
-*.xml
-/build
-/.idea
-/.gradle
-/local.properties
-.gitignore
 # Java class files
 *.class
 
 # Generated files
 bin/
 gen/
+venv/
 
 # Gradle files
 .gradle/
@@ -36,6 +24,8 @@ build/
 *.ipr
 *.iws
 .idea/
+*.txt
+*.csv
 
 #gradle
 .gradle/
