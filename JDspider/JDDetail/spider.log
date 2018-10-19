@@ -1,0 +1,58 @@
+2018-09-30 15:54:25 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: JDDetail)
+2018-09-30 15:54:25 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'JDDetail', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'spider.log', 'NEWSPIDER_MODULE': 'JDDetail.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['JDDetail.spiders']}
+2018-09-30 15:54:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-30 15:54:25 [JDDetailSpide] INFO: Reading start URLs from redis key 'JDDetailSpider:start_urls' (batch size: 16, encoding: utf-8
+2018-09-30 15:54:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'JDDetail.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-30 15:54:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-30 15:54:25 [twisted] CRITICAL: Unhandled error in Deferred:
+2018-09-30 15:54:25 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/twisted/internet/defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/scrapy/crawler.py", line 72, in crawl
+    self.engine = self._create_engine()
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/scrapy/crawler.py", line 97, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/scrapy/middleware.py", line 58, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/scrapy/middleware.py", line 40, in from_settings
+    mw = mwcls()
+  File "/Users/tanchengjun/PycharmProjects/code/JDspider/JDDetail/JDDetail/pipelines.py", line 24, in __init__
+    use_unicode=True
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/connections.py", line 688, in __init__
+    self.connect()
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/connections.py", line 906, in connect
+    self._request_authentication()
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/connections.py", line 1114, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/tanchengjun/anaconda3/envs/spider/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: NO)")

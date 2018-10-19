@@ -1,0 +1,8 @@
+*.log
+*.temp
+/venv
+/Untitled Folder
+*.csv
+*.txt
+*.xlsx
+*.xml
