@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41e6df36-25ab-46de-84d4-c3cf2a11b2c1" name="默认" comment="增加gitingore" />
+    <list default="true" id="41e6df36-25ab-46de-84d4-c3cf2a11b2c1" name="默认" comment="增加gitingore">
+      <change beforePath="$PROJECT_DIR$/.gitingore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +42,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="gitingore" value="31" />
+          <entry key="gitingore" value="32" />
           <entry key="py" value="4606" />
           <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="PLAIN_TEXT" value="135" />
           <entry key="Python" value="4606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitingore" value="2" />
+          <entry key="gitingore" value="3" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="png" value="3" />
@@ -64,14 +66,24 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="5" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="Python" value="25" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitingore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,7 +100,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Flaskdemo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -367,8 +379,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30533117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30533117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,7 +394,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080776" side_tool="true" weight="0.40273973" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32876712" />
@@ -567,13 +580,6 @@
     <entry file="file://$PROJECT_DIR$/xiong.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitingore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wechathao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-271">
@@ -581,6 +587,13 @@
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitingore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
