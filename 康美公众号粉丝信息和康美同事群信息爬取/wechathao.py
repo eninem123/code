@@ -1,5 +1,5 @@
 """
-获取微信公众号粉丝呢称信息功能
+获取微信公众号粉丝呢称信息和微信群信息整理成数据集功能
 """
 import requests
 import json
@@ -82,6 +82,7 @@ class wechatspider():
                 # f.write(nickname + '\n')
 
     def fixcsv(self):
+        # 将微信号和微信群的信息整理合并
         df = pd.read_csv('./微信公众号粉丝信息和群信息.csv')
         # 找到公众号和微信得分界处得那个人名称
         index_name = df.iloc[1, 0]
