@@ -1,6 +1,7 @@
 """
 微博爬虫，输入某关键字就爬取对应用户
 将微博名，关注数，粉丝数，微博数提取
+bs4方式爬取
 """
 import requests
 import csv,codecs
