@@ -7,7 +7,7 @@ import requests
 import csv,codecs
 from bs4 import BeautifulSoup
 
-class WeiboSpider(object):
+class MovieSpider(object):
 
     def __init__(self):
         self.url='https://s.weibo.com/user?q=健康&Refer=weibo_user&page={}'
@@ -86,6 +86,6 @@ class WeiboSpider(object):
 
 if __name__ == '__main__':
 
-    mm = WeiboSpider()
+    mm = MovieSpider()
     mm.run()
 
