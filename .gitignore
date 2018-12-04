@@ -28,5 +28,9 @@ build/
 *.csv
 *.xls
 *.pkl
+*.png
+*.xml
+*.jpg
+*.gif
 #gradle
 .gradle/
