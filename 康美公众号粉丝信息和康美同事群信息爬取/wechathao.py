@@ -14,7 +14,7 @@ class wechatspider():
     def __init__(self):
 
         # 连接公众号获取token
-        token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=xxx&secret=xxx"
+        token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx488078f27e37a708&secret=b2244d70ebbd7f3403db939b95c0e2f2"
         token = requests.get(url=token_url)
         # 得到的是bytes字节
         print(token.content)
