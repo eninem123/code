@@ -10,6 +10,7 @@ import csv
 begin表示从第begin页开始爬取，为5的倍数，从0开始。如0、5、10……
 token可以使用Chrome自带的工具进行获取
 fakeid是公众号独一无二的一个id，等同于后面的__biz
+参考：https://blog.csdn.net/wnma3mz/article/details/78570580
 """
 
 

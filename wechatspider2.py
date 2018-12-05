@@ -8,6 +8,7 @@ import json,csv
 2。抓包软件看见一个mp.weixin.qq.com不断变黄色，打开看里面的url
 3。浏览器打开url就是，json包了
 4。f12查headers拼接进来，url的offset从0开始翻页，0，11，21，31
+参考：https://github.com/pythonchannel/spider_works/tree/master/%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB
 """
 
 
